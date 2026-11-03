@@ -1,0 +1,1558 @@
+<!DOCTYPE html>
+<html lang="id" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>M. Khoirul Risqi | Fullstack Developer, Cloud &amp; DevOps, IoT Engineer</title>
+  <meta name="description" content="Portofolio resmi M. Khoirul Risqi: Lulusan Teknik Informatika UNUGIRI, Distinction Graduate Bangkit Academy Cloud Computing, Juara 1 Mahavation 2025 Jawa Timur, Fullstack Developer &amp; IoT Engineer.">
+  <meta name="author" content="M. Khoirul Risqi">
+  <meta name="theme-color" content="#000000">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="M. Khoirul Risqi | Fullstack Developer, Cloud &amp; DevOps">
+  <meta property="og:description" content="Portofolio proyek, studi kasus, dan rekam jejak teknis M. Khoirul Risqi (Fullstack, Cloud Computing, DevOps, Embedded IoT).">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="banpang-mobile/portfolio-hero-showcase.png">
+
+  <!-- Google Fonts: Plus Jakarta Sans (Sesuai DESIGN.md) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a href="#main-content" class="skip-link">Lewati ke konten utama</a>
+
+  <!-- HEADER & NAVIGATION -->
+  <header class="site-header" id="top">
+    <div class="container header-inner">
+      <a href="#top" class="brand-identity" aria-label="Beranda M. Khoirul Risqi">
+        <span class="brand-monogram" aria-hidden="true">MKR</span>
+        <span class="brand-text">
+          <strong class="brand-name">M. Khoirul Risqi</strong>
+          <span class="brand-role">Fullstack &middot; Cloud/DevOps &middot; IoT</span>
+        </span>
+      </a>
+
+      <nav class="site-nav" id="site-nav" aria-label="Navigasi Utama">
+        <ul class="nav-list">
+          <li><a href="#studi-kasus" class="nav-link">Studi Kasus</a></li>
+          <li><a href="#karya" class="nav-link">Arsip Proyek</a></li>
+          <li><a href="#pencapaian" class="nav-link">Bukti &amp; Sertifikasi</a></li>
+          <li><a href="#pengalaman" class="nav-link">Rekam Jejak</a></li>
+          <li><a href="#kontak" class="nav-link">Kontak</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-actions">
+        <button
+          type="button"
+          class="pill-control theme-toggle"
+          id="theme-toggle"
+          aria-label="Ganti ke mode terang"
+          aria-pressed="false"
+          title="Ganti tema tampilan (Gelap / Terang)"
+        >
+          <svg class="icon-sun" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+            <circle cx="12" cy="12" r="4"></circle>
+            <path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"></path>
+          </svg>
+          <svg class="icon-moon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+          </svg>
+          <span class="theme-label" id="theme-label">Mode Terang</span>
+        </button>
+
+        <a
+          href="CV/M.%20Khoirul%20Risqi%20%20-%20CV%20(4)%20(1).pdf"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="btn-primary header-cv-btn"
+        >
+          Unduh CV (PDF)
+        </a>
+
+        <button
+          type="button"
+          class="pill-control mobile-menu-btn"
+          id="mobile-menu-btn"
+          aria-expanded="false"
+          aria-controls="mobile-drawer"
+          aria-label="Buka menu navigasi"
+        >
+          <svg class="icon-menu" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+            <line x1="3" y1="7" x2="21" y2="7"></line>
+            <line x1="3" y1="12" x2="21" y2="12"></line>
+            <line x1="3" y1="17" x2="21" y2="17"></line>
+          </svg>
+          <span class="mobile-menu-text">Menu</span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile Navigation Drawer -->
+    <div class="mobile-drawer" id="mobile-drawer" hidden>
+      <nav aria-label="Navigasi Seluler">
+        <ul class="mobile-nav-list">
+          <li><a href="#studi-kasus" class="mobile-nav-link">Studi Kasus Utama (Banpang)</a></li>
+          <li><a href="#karya" class="mobile-nav-link">Arsip Proyek &amp; Riset</a></li>
+          <li><a href="#pencapaian" class="mobile-nav-link">Bukti &amp; Sertifikasi Resmi</a></li>
+          <li><a href="#pengalaman" class="mobile-nav-link">Pengalaman &amp; Pendidikan</a></li>
+          <li><a href="#kontak" class="mobile-nav-link">Hubungi Langsung</a></li>
+        </ul>
+        <div class="mobile-drawer-footer">
+          <a
+            href="CV/M.%20Khoirul%20Risqi%20%20-%20CV%20(4)%20(1).pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="btn-primary mobile-full-btn"
+          >
+            Buka Dokumen CV (PDF)
+          </a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <!-- SECTION 1: HERO & ARCHITECTURAL DOSSIER -->
+    <section class="hero-section" aria-labelledby="hero-heading">
+      <div class="container hero-grid">
+        <div class="hero-copy-col">
+          <div class="status-indicator">
+            <span class="status-dot" aria-hidden="true"></span>
+            <span>Tersedia untuk Fullstack, Cloud/DevOps &amp; IT Support &middot; Bojonegoro, Jawa Timur</span>
+          </div>
+
+          <h1 id="hero-heading" class="display-xl">
+            Merancang aplikasi web, infrastruktur cloud, dan sistem embedded yang teruji di lapangan.
+          </h1>
+
+          <p class="hero-lead body-xl">
+            Saya <strong>M. Khoirul Risqi</strong>, lulusan S1 Teknik Informatika Universitas Nahdlatul Ulama Sunan Giri (UNUGIRI). Fokus saya adalah menjembatani pengembangan aplikasi Fullstack, otomatisasi pipeline CI/CD &amp; Cloud Computing, serta sistem IoT berbasis ESP32 dan Machine Learning yang menyelesaikan masalah operasional nyata.
+          </p>
+
+          <div class="hero-cta-group">
+            <a href="#studi-kasus" class="btn-primary">
+              Jelajahi Studi Kasus &amp; Demo
+            </a>
+            <a
+              href="https://www.linkedin.com/in/khoirulrisqi/"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="btn-filled"
+            >
+              Profil LinkedIn Resmi
+            </a>
+            <a
+              href="https://github.com/risqikhoirul"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="pill-link"
+            >
+              GitHub (github.com/risqikhoirul)
+            </a>
+          </div>
+
+          <!-- Verifiable Fact Strip -->
+          <dl class="dossier-metrics" aria-label="Capaian Terverifikasi">
+            <div class="metric-cell">
+              <dt class="metric-label">Kompetisi Provinsi (Polda Jatim)</dt>
+              <dd class="metric-value">Juara 1 Mahavation 2025</dd>
+              <dd class="metric-sub">Kategori Perguruan Tinggi se-Jawa Timur</dd>
+            </div>
+            <div class="metric-cell">
+              <dt class="metric-label">Bangkit Academy 2024 Batch 2</dt>
+              <dd class="metric-value">Distinction Graduate</dd>
+              <dd class="metric-sub">Cloud Computing &middot; Skor 92.90 (A) &middot; 906 Jam</dd>
+            </div>
+            <div class="metric-cell">
+              <dt class="metric-label">Yudisium Ke-VIII FST UNUGIRI 2026</dt>
+              <dd class="metric-value">Penelitian Terbaik</dd>
+              <dd class="metric-sub">Riset ANN &amp; Seleksi Fitur Prediksi Kelulusan</dd>
+            </div>
+          </dl>
+        </div>
+
+        <aside class="hero-dossier-col" aria-label="Profil Visual dan Identitas Teknis">
+          <div class="dossier-card">
+            <div class="portrait-frame">
+              <img
+                src="foto-profil/DSC05939.JPG"
+                alt="Foto potret M. Khoirul Risqi mengenakan kemeja biru tua berbendera merah putih"
+                width="800"
+                height="1200"
+                fetchpriority="high"
+                class="portrait-img"
+              >
+              <div class="portrait-caption">
+                <span class="caption-tag">ID: C356B4KY2349</span>
+                <span class="caption-loc">Kab. Bojonegoro, ID</span>
+              </div>
+            </div>
+
+            <div class="dossier-table" role="region" aria-label="Ringkasan Identitas">
+              <div class="dossier-row">
+                <span class="dossier-key">Peran Saat Ini</span>
+                <span class="dossier-val">Perum BULOG Bojonegoro (Pemberkasan, Admin, Verifikator, Programmer)</span>
+              </div>
+              <div class="dossier-row">
+                <span class="dossier-key">Pendidikan</span>
+                <span class="dossier-val">S1 Teknik Informatika, UNUGIRI (2022 - 2026)</span>
+              </div>
+              <div class="dossier-row">
+                <span class="dossier-key">Spesialisasi</span>
+                <span class="dossier-val">Fullstack Web, Cloud &amp; DevOps, Embedded IoT</span>
+              </div>
+              <div class="dossier-row">
+                <span class="dossier-key">Sertifikasi</span>
+                <span class="dossier-val">Bangkit Distinction, DBS DevOps (Expert), BNSP TIK</span>
+              </div>
+              <div class="dossier-row">
+                <span class="dossier-key">Kontak Cepat</span>
+                <span class="dossier-val">
+                  <a href="mailto:risqisgb@gmail.com" class="inline-link">risqisgb@gmail.com</a>
+                </span>
+              </div>
+            </div>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <!-- SECTION 2: FEATURED INTERACTIVE CASE STUDY (BANPANG MOBILE WEB) -->
+    <section class="case-study-section" id="studi-kasus" aria-labelledby="case-study-heading">
+      <div class="container">
+        <div class="section-header-split">
+          <div>
+            <p class="section-index">01 / STUDI KASUS UNGGULAN &amp; SIMULASI ANTARMUKA</p>
+            <h2 id="case-study-heading" class="display-lg">Banpang Mobile Web: Sistem Monitoring, Multi-OCR KTP/KK &amp; Otomasi BAST Bulog</h2>
+          </div>
+          <p class="section-intro body-xl">
+            Dikembangkan langsung dari peran lintas divisi di <strong>Perum BULOG Kab. Bojonegoro (Agustus 2026 - Sekarang)</strong> sebagai Staf Pemberkasan, Admin, Verifikator, dan Programmer. Aplikasi web mobile ini mengotomasi verifikasi KTP/KK Penerima Bantuan Pangan (PBP) melalui tiga mesin OCR, pemetaan koordinat penyaluran real-time, serta pencetakan dokumen PDF BAST dan SPTJM secara akuntabel.
+          </p>
+        </div>
+
+        <div class="banpang-workbench">
+          <!-- Left column: Architecture & Interactive Screen Selector -->
+          <div class="workbench-controls">
+            <div class="workbench-panel">
+              <h3 class="heading-sm">Pilih Tampilan Modul atau Video Demo</h3>
+              <p class="body-sm muted-copy">
+                Klik modul di bawah untuk memeriksa tangkapan layar asli tiap tahap alur kerja atau memutar video tutorial operasional (33 MB MP4).
+              </p>
+
+              <div class="screen-tabs" role="tablist" aria-label="Modul Antarmuka Banpang Mobile Web">
+                <button
+                  type="button"
+                  role="tab"
+                  aria-selected="true"
+                  aria-controls="banpang-stage-panel"
+                  id="tab-showcase"
+                  class="screen-tab active"
+                  data-mode="image"
+                  data-src="banpang-mobile/portfolio-hero-showcase.png"
+                  data-width="2400"
+                  data-height="1560"
+                  data-title="Ikhtisar Arsitektur Banpang Mobile Web"
+                  data-desc="Tampilan komprehensif aplikasi: Geotagging & Peta Interaktif OSM, Multi-Engine OCR (1, 2 & 3), Monitoring 1.145 PBP, dan Generator Dokumen BAST PDF/Excel."
+                >
+                  <span class="tab-num">00</span>
+                  <span class="tab-text">
+                    <strong>Ikhtisar Sistem (Showcase)</strong>
+                    <span>Ringkasan 4 pilar fitur &amp; antarmuka utama</span>
+                  </span>
+                </button>
+
+                <button
+                  type="button"
+                  role="tab"
+                  aria-selected="false"
+                  aria-controls="banpang-stage-panel"
+                  id="tab-video"
+                  class="screen-tab"
+                  data-mode="video"
+                  data-src="demo-banbang/tutorial-banpang-mobile.mp4"
+                  data-title="Video Demo Operasional Banpang Mobile"
+                  data-desc="Rekaman langsung alur penggunaan aplikasi dari login petugas, penentuan titik lokasi desa, pemindaian OCR KTP/KK, hingga unduh berkas BAST."
+                >
+                  <span class="tab-num">▶</span>
+                  <span class="tab-text">
+                    <strong>Putar Video Demo Langsung</strong>
+                    <span>Rekaman alur kerja penuh (MP4 Interaktif)</span>
+                  </span>
+                </button>
+
+                <button
+                  type="button"
+                  role="tab"
+                  aria-selected="false"
+                  aria-controls="banpang-stage-panel"
+                  id="tab-s1"
+                  class="screen-tab"
+                  data-mode="image"
+                  data-src="banpang-mobile/portfolio-01-login.png"
+                  data-width="1280"
+                  data-height="2240"
+                  data-title="01. Autentikasi & Sesi Petugas Lapangan"
+                  data-desc="Halaman masuk petugas penyaluran dengan manajemen sesi aman untuk sinkronisasi data BAST desa."
+                >
+                  <span class="tab-num">01</span>
+                  <span class="tab-text">
+                    <strong>Autentikasi Petugas</strong>
+                    <span>Gerbang akses &amp; manajemen sesi lapangan</span>
+                  </span>
+                </button>
+
+                <button
+                  type="button"
+                  role="tab"
+                  aria-selected="false"
+                  aria-controls="banpang-stage-panel"
+                  id="tab-s2"
+                  class="screen-tab"
+                  data-mode="image"
+                  data-src="banpang-mobile/portfolio-02-beranda-peta.png"
+                  data-width="1280"
+                  data-height="2240"
+                  data-title="02. Geotagging & Peta Interaktif (Leaflet OSM)"
+                  data-desc="Preset titik lokasi cepat (Balai Desa, Kantor Desa, Kecamatan, Posyandu) dengan pencarian alamat OpenStreetMap dan penguncian koordinat GPS."
+                >
+                  <span class="tab-num">02</span>
+                  <span class="tab-text">
+                    <strong>Geotagging &amp; Peta OSM</strong>
+                    <span>Preset lokasi desa &amp; titik koordinat GPS</span>
+                  </span>
+                </button>
+
+                <button
+                  type="button"
+                  role="tab"
+                  aria-selected="false"
+                  aria-controls="banpang-stage-panel"
+                  id="tab-s3"
+                  class="screen-tab"
+                  data-mode="image"
+                  data-src="banpang-mobile/portfolio-03-list-monitoring.png"
+                  data-width="1280"
+                  data-height="2240"
+                  data-title="03. Monitoring Real-Time 1.145 PBP"
+                  data-desc="Pemantauan daftar Penerima Bantuan Pangan dengan fitur auto-reload tanpa mereset posisi gulir layar, filter kategori (Normal, Perwakilan SK/BK, Pengganti)."
+                >
+                  <span class="tab-num">03</span>
+                  <span class="tab-text">
+                    <strong>Monitoring &amp; Filter PBP</strong>
+                    <span>Auto-reload tanpa reset scroll &amp; pencarian cepat</span>
+                  </span>
+                </button>
+
+                <button
+                  type="button"
+                  role="tab"
+                  aria-selected="false"
+                  aria-controls="banpang-stage-panel"
+                  id="tab-s4"
+                  class="screen-tab"
+                  data-mode="image"
+                  data-src="banpang-mobile/portfolio-04-kartu-pbp-foto.png"
+                  data-width="1280"
+                  data-height="2240"
+                  data-title="04. Kartu PBP & Inspeksi Foto HD"
+                  data-desc="Pratinjau foto dokumentasi penerima resolusi tinggi lengkap dengan kontrol rotasi gambar dan status verifikasi."
+                >
+                  <span class="tab-num">04</span>
+                  <span class="tab-text">
+                    <strong>Kartu PBP &amp; Preview Foto HD</strong>
+                    <span>Inspeksi bukti foto &amp; kontrol rotasi langsung</span>
+                  </span>
+                </button>
+
+                <button
+                  type="button"
+                  role="tab"
+                  aria-selected="false"
+                  aria-controls="banpang-stage-panel"
+                  id="tab-s5"
+                  class="screen-tab"
+                  data-mode="image"
+                  data-src="banpang-mobile/portfolio-05-salur-edit-ocr.png"
+                  data-width="1280"
+                  data-height="2240"
+                  data-title="05. Ekstraksi Cerdas Multi-Engine OCR (1, 2 & 3)"
+                  data-desc="Membaca otomatis NIK, Nama, dan Nomor KK dari foto KTP/KK untuk penyaluran perwakilan maupun pengganti dengan validasi instan."
+                >
+                  <span class="tab-num">05</span>
+                  <span class="tab-text">
+                    <strong>Salur, Edit &amp; Multi-OCR</strong>
+                    <span>Ekstraksi otomatis NIK &amp; No. KK dari foto dokumen</span>
+                  </span>
+                </button>
+
+                <button
+                  type="button"
+                  role="tab"
+                  aria-selected="false"
+                  aria-controls="banpang-stage-panel"
+                  id="tab-s6"
+                  class="screen-tab"
+                  data-mode="image"
+                  data-src="banpang-mobile/portfolio-06-statistik-dokumen.png"
+                  data-width="1280"
+                  data-height="2240"
+                  data-title="06. Statistik Verifikasi & Generator PDF/Excel"
+                  data-desc="Cetak otomatis PDF BAST Perwakilan BK, BAST Pengganti, SPTJM Pengganti, serta ekspor laporan Excel (.xlsx) dan CSV."
+                >
+                  <span class="tab-num">06</span>
+                  <span class="tab-text">
+                    <strong>Statistik &amp; Cetak BAST/SPTJM</strong>
+                    <span>Generator dokumen PDF resmi &amp; laporan Excel</span>
+                  </span>
+                </button>
+              </div>
+            </div>
+
+            <div class="tech-spec-box">
+              <h3 class="heading-sm">Stack &amp; Spesifikasi Teknis</h3>
+              <ul class="spec-tags" aria-label="Teknologi Banpang Mobile Web">
+                <li class="spec-pill">Vue 3</li>
+                <li class="spec-pill">Vite</li>
+                <li class="spec-pill">Node.js &amp; Express</li>
+                <li class="spec-pill">PDF-Lib</li>
+                <li class="spec-pill">Leaflet OSM</li>
+                <li class="spec-pill">Multi-Engine AI OCR</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Right column: Interactive Stage Viewer with Loading/Error states (R-27) -->
+          <div
+            class="workbench-stage"
+            id="banpang-stage-panel"
+            role="tabpanel"
+            aria-labelledby="tab-showcase"
+            tabindex="0"
+          >
+            <div class="stage-topbar">
+              <div class="stage-meta">
+                <span class="stage-badge" id="stage-mode-badge">PRATINJAU VISUAL</span>
+                <h3 class="stage-title" id="stage-title">Ikhtisar Arsitektur Banpang Mobile Web</h3>
+              </div>
+              <button
+                type="button"
+                class="pill-control stage-expand-btn"
+                id="stage-fullscreen-btn"
+                aria-label="Perbesar tampilan layar penuh di jendela modal"
+              >
+                Perbesar Layar
+              </button>
+            </div>
+
+            <p class="stage-description body-md" id="stage-desc">
+              Tampilan komprehensif aplikasi: Geotagging &amp; Peta Interaktif OSM, Multi-Engine OCR (1, 2 &amp; 3), Monitoring 1.145 PBP, dan Generator Dokumen BAST PDF/Excel.
+            </p>
+
+            <!-- Loading State (R-27) -->
+            <div class="stage-status stage-loading" id="stage-loading" hidden aria-live="polite">
+              <span class="status-spinner" aria-hidden="true"></span>
+              <span>Memuat media resolusi tinggi...</span>
+            </div>
+
+            <!-- Error State (R-27) -->
+            <div class="stage-status stage-error" id="stage-error" hidden role="alert">
+              <p>Media gagal dimuat. Periksa koneksi atau buka berkas secara langsung.</p>
+              <button type="button" class="pill-control" id="stage-retry-btn">Muat Ulang Media</button>
+            </div>
+
+            <div class="stage-canvas" id="stage-canvas">
+              <img
+                id="stage-image"
+                src="banpang-mobile/portfolio-hero-showcase.png"
+                alt="Ikhtisar Arsitektur Banpang Mobile Web"
+                width="2400"
+                height="1560"
+                class="stage-media-img"
+              >
+              <video
+                id="stage-video"
+                class="stage-media-video"
+                controls
+                preload="metadata"
+                width="1280"
+                height="720"
+                poster="banpang-mobile/portfolio-hero-showcase.png"
+                hidden
+              >
+                <source src="demo-banbang/tutorial-banpang-mobile.mp4" type="video/mp4">
+                Peramban Anda tidak mendukung pemutaran video HTML5.
+              </video>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 3: SELECTED ENGINEERING & RESEARCH ARCHIVE (ASYMMETRIC + FILTER/SEARCH) -->
+    <section class="projects-section" id="karya" aria-labelledby="projects-heading">
+      <div class="container">
+        <div class="section-header-split">
+          <div>
+            <p class="section-index">02 / ARSIP PROYEK, PRODUK &amp; RISET TEKNIS</p>
+            <h2 id="projects-heading" class="display-lg">Karya Terpilih Lintas Disiplin</h2>
+          </div>
+          <p class="section-intro body-xl">
+            Setiap proyek di bawah dibangun untuk kebutuhan organisasi, instansi publik, kompetisi inovasi tingkat provinsi, maupun riset akademis terpublikasi. Gunakan filter kategori atau kata kunci untuk menelusuri arsip.
+          </p>
+        </div>
+
+        <!-- Filter & Search Controls -->
+        <div class="archive-toolbar" role="region" aria-label="Filter dan Pencarian Proyek">
+          <div class="filter-pills" role="group" aria-label="Kategori Proyek">
+            <button type="button" class="pill-control filter-btn active" data-filter="all" aria-pressed="true">
+              Semua Karya (6)
+            </button>
+            <button type="button" class="pill-control filter-btn" data-filter="fullstack" aria-pressed="false">
+              Fullstack &amp; Web Instansi
+            </button>
+            <button type="button" class="pill-control filter-btn" data-filter="cloud" aria-pressed="false">
+              Cloud &amp; Mobile App
+            </button>
+            <button type="button" class="pill-control filter-btn" data-filter="iot-ai" aria-pressed="false">
+              IoT, Robotika &amp; AI Research
+            </button>
+          </div>
+
+          <div class="search-field-wrap">
+            <label for="project-search" class="search-label">Cari Proyek / Teknologi</label>
+            <div class="search-input-group">
+              <input
+                type="search"
+                id="project-search"
+                class="search-input"
+                placeholder="Contoh: ESP32, WhatsApp, BEM, Cloud Run, ANN..."
+                autocomplete="off"
+              >
+              <button
+                type="button"
+                id="clear-search-btn"
+                class="pill-control clear-search-btn"
+                hidden
+                aria-label="Bersihkan kata kunci pencarian"
+              >
+                Reset
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Live result count -->
+        <p class="archive-count body-sm" id="archive-count" aria-live="polite">
+          Menampilkan 6 dari 6 proyek terverifikasi.
+        </p>
+
+        <!-- Empty State (R-27) -->
+        <div class="archive-empty-state" id="archive-empty" hidden role="status">
+          <h3 class="heading-md">Tidak ada proyek yang cocok dengan pencarian Anda</h3>
+          <p class="body-md muted-copy">
+            Kata kunci atau filter yang dipilih belum memiliki kecocokan di dalam arsip. Silakan atur ulang filter untuk melihat seluruh karya.
+          </p>
+          <button type="button" class="btn-primary" id="reset-archive-btn">
+            Tampilkan Semua Proyek
+          </button>
+        </div>
+
+        <!-- Asymmetric Editorial Project Grid (R-14: varied hierarchy & layout) -->
+        <div class="projects-grid" id="projects-grid">
+          <!-- Project 1: Featured Wide Card - LaporPak & Synergics Digital -->
+          <article
+            class="project-card project-card-wide"
+            data-category="fullstack"
+            data-keywords="laporpak whatsapp chatbot polres bojonegoro ditlantas jatim synergics digital android web ui ux"
+          >
+            <div class="project-media-wrap">
+              <img
+                src="intern-synergics-digital-solusindo/IMG_0071.PNG"
+                alt="Dokumentasi tim pengembang bersama antarmuka login monitoring Lapor Pak! dan aplikasi mobile di layar"
+                width="828"
+                height="1205"
+                loading="lazy"
+                class="project-img"
+              >
+            </div>
+            <div class="project-body">
+              <div class="project-meta-row">
+                <span class="project-cat">FULLSTACK &amp; PUBLIC SERVICE</span>
+                <span class="project-period">04/2025 - 06/2025 &middot; Synergics Digital</span>
+              </div>
+              <h3 class="project-title">LaporPak! Chatbot Pelaporan Lalu Lintas Se-Jatim, Web Polres Bojonegoro &amp; UI/UX Ditlantas Jatim</h3>
+              <p class="project-desc body-md">
+                Dikembangkan saat bertugas sebagai Product Developer di Synergics Digital Solusindo. Merancang <strong>LaporPak!</strong>, sistem pelaporan lalu lintas berbasis chatbot WhatsApp yang terintegrasi penuh dengan aplikasi Android dan dasbor monitoring web, membangun situs web Polres Bojonegoro, serta mendesain antarmuka UI/UX situs Ditlantas Polda Jawa Timur.
+              </p>
+              <ul class="project-highlights body-sm">
+                <li>Integrasi alur laporan masyarakat via WhatsApp ke pusat pemantauan web dan aplikasi mobile secara real-time.</li>
+                <li>Perancangan antarmuka monitoring operasional untuk mempercepat tindak lanjut laporan lalu lintas di Jawa Timur.</li>
+              </ul>
+              <div class="project-footer">
+                <div class="tag-list">
+                  <span class="tech-tag">WhatsApp Bot Integration</span>
+                  <span class="tech-tag">Web Monitoring Dashboard</span>
+                  <span class="tech-tag">Android Integration</span>
+                  <span class="tech-tag">UI/UX Design</span>
+                </div>
+                <button
+                  type="button"
+                  class="pill-link modal-trigger"
+                  data-modal-image="intern-synergics-digital-solusindo/IMG_0071.PNG"
+                  data-modal-title="Dokumentasi Pengembangan LaporPak! di Synergics Digital Solusindo"
+                  data-modal-caption="Presentasi dan pengujian dasbor monitoring LaporPak! (tampak pada layar monitor atas) bersama aplikasi mobile terintegrasi."
+                >
+                  Periksa Foto Dokumentasi
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 2: Featured Wide Card - Mahavation 2025 & Embedded Robotics/IoT -->
+          <article
+            class="project-card project-card-wide"
+            data-category="iot-ai"
+            data-keywords="iot esp32 machine learning robotika mahavation 2025 juara 1 polda jatim embedded elektronika"
+          >
+            <div class="project-media-wrap project-media-dual">
+              <img
+                src="intern-synergics-digital-solusindo/IMG_0072.PNG"
+                alt="M. Khoirul Risqi sedang merakit dan menguji prototipe robot beroda rantai dengan modul kamera ganda dan antena"
+                width="828"
+                height="1137"
+                loading="lazy"
+                class="project-img"
+              >
+              <img
+                src="Lomba-Mahavation/WhatsApp%20Image%202026-11-02%20at%2010.15.08.jpeg"
+                alt="M. Khoirul Risqi memegang piala dan plakat Juara 1 Mahavation 2025 Kategori Perguruan Tinggi"
+                width="960"
+                height="1280"
+                loading="lazy"
+                class="project-img"
+              >
+            </div>
+            <div class="project-body">
+              <div class="project-meta-row">
+                <span class="project-cat">EMBEDDED IOT, ROBOTICS &amp; MACHINE LEARNING</span>
+                <span class="project-period">2025 &middot; Juara 1 Tingkat Jawa Timur</span>
+              </div>
+              <h3 class="project-title">Inovasi Sistem Embedded ESP32, Machine Learning &amp; Unit Robotika Taktis (Juara 1 Mahavation 2025)</h3>
+              <p class="project-desc body-md">
+                Menggabungkan fondasi Teknik Elektronika Industri dengan Teknik Informatika untuk merancang sistem embedded berbasis mikrokontroler <strong>ESP32</strong>, sensor terintegrasi, modul kamera/telemetri, dan <strong>Machine Learning</strong>. Inovasi keselamatan jalan raya ini berhasil meraih <strong>Juara 1 Mahameru Road Safety Innovation (Mahavation) 2025</strong> Kategori Perguruan Tinggi pada peringatan Hari Lalu Lintas Bhayangkara ke-70 Polda Jawa Timur.
+              </p>
+              <div class="project-footer">
+                <div class="tag-list">
+                  <span class="tech-tag">ESP32 Microcontroller</span>
+                  <span class="tech-tag">Machine Learning</span>
+                  <span class="tech-tag">Embedded Systems</span>
+                  <span class="tech-tag">Tracked Robotics</span>
+                </div>
+                <div class="card-action-group">
+                  <button
+                    type="button"
+                    class="pill-link modal-trigger"
+                    data-modal-image="intern-synergics-digital-solusindo/IMG_0072.PNG"
+                    data-modal-title="Prototipe Unit Robotika & Sistem Embedded"
+                    data-modal-caption="Pengujian perangkat keras unit tracked rover dengan kamera berlampu LED ganda dan antena komunikasi nirkabel."
+                  >
+                    Lihat Unit Perangkat Keras
+                  </button>
+                  <button
+                    type="button"
+                    class="pill-link modal-trigger"
+                    data-modal-image="Lomba-Mahavation/WhatsApp%20Image%202026-11-02%20at%2010.15.08.jpeg"
+                    data-modal-title="Penghargaan Juara 1 Mahavation 2025"
+                    data-modal-caption="Trofi dan plakat Juara 1 Mahameru Road Safety Innovation (Mahavation) 2025 Kategori Perguruan Tinggi (Rp 15.000.000)."
+                  >
+                    Bukti Juara 1
+                  </button>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 3: Standard Architectural Cell - Website BEM FST & FIK UNUGIRI -->
+          <article
+            class="project-card"
+            data-category="fullstack"
+            data-keywords="bem fst fik unugiri website koordinator publikasi organisasi kampus portofolio web"
+          >
+            <div class="project-body">
+              <div class="project-meta-row">
+                <span class="project-cat">LIVE WEB PORTFOLIO PROJECT</span>
+                <span class="project-period">Karya saat di BEM FST &amp; FIK UNUGIRI</span>
+              </div>
+              <h3 class="project-title">Website Resmi BEM Fakultas Sains &amp; Teknologi serta Fakultas Ilmu Kesehatan UNUGIRI</h3>
+              <p class="project-desc body-md">
+                Salah satu karya pengembangan web yang saya bangun saat aktif sebagai <strong>Koordinator Publikasi</strong> di Badan Eksekutif Mahasiswa (BEM) FST &amp; FIK Universitas Nahdlatul Ulama Sunan Giri. Dirancang sebagai portal informasi kegiatan mahasiswa, publikasi program kerja, dan profil organisasi tingkat fakultas.
+              </p>
+              <div class="live-url-preview">
+                <span class="url-protocol">HTTPS://</span>
+                <span class="url-domain">bemfstfik.unugiri.com</span>
+              </div>
+              <div class="project-footer">
+                <div class="tag-list">
+                  <span class="tech-tag">Web Development</span>
+                  <span class="tech-tag">Content Management</span>
+                  <span class="tech-tag">Responsive UI</span>
+                </div>
+                <a
+                  href="https://bemfstfik.unugiri.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="btn-primary"
+                >
+                  Kunjungi Situs Live
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 4: Standard Architectural Cell - TABI Capstone Bangkit -->
+          <article
+            class="project-card"
+            data-category="cloud"
+            data-keywords="tabi bangkit academy 2024 cloud computing google cloud run backend microservices budaya bahasa"
+          >
+            <div class="project-media-wrap project-media-compact">
+              <img
+                src="Bangkit-academy/tabi-apk.png"
+                alt="Mockup aplikasi mobile TABI menampilkan halaman budaya Yogyakarta: Manners, Foods (Apem, Bakpia Pathok, Gudeg), dan Places"
+                width="1080"
+                height="1350"
+                loading="lazy"
+                class="project-img"
+              >
+            </div>
+            <div class="project-body">
+              <div class="project-meta-row">
+                <span class="project-cat">CLOUD COMPUTING &amp; CAPSTONE</span>
+                <span class="project-period">09/2024 - 12/2024 &middot; Tim C242-PS286</span>
+              </div>
+              <h3 class="project-title">TABI: Aplikasi Pengenalan Bahasa Daerah, Tata Krama &amp; Budaya Nusantara</h3>
+              <p class="project-desc body-md">
+                Proyek Capstone Bangkit Academy 2024 Batch 2 (Skor Capstone: <strong>91.3 / A</strong>). Bertanggung jawab pada alur Cloud Computing: membangun RESTful API backend, arsitektur layanan mikro, integrasi model Machine Learning, serta deployment terukur di <strong>Google Cloud Platform (Cloud Run)</strong>.
+              </p>
+              <div class="project-footer">
+                <div class="tag-list">
+                  <span class="tech-tag">Google Cloud Run</span>
+                  <span class="tech-tag">Node.js Backend</span>
+                  <span class="tech-tag">RESTful API</span>
+                  <span class="tech-tag">Cloud Architecture</span>
+                </div>
+                <button
+                  type="button"
+                  class="pill-link modal-trigger"
+                  data-modal-image="Bangkit-academy/tabi-apk.png"
+                  data-modal-title="TABI: Bringing Indonesia's Languages and Culture Closer to You"
+                  data-modal-caption="Antarmuka aplikasi TABI yang menampilkan panduan Manners (Tata Krama), Foods (Kuliner khas), dan Places di tiap daerah Indonesia."
+                >
+                  Perbesar Pratinjau Aplikasi
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 5: Standard Architectural Cell - Best Research ANN -->
+          <article
+            class="project-card"
+            data-category="iot-ai"
+            data-keywords="penelitian terbaik artificial neural network ann seleksi fitur prediksi kelulusan mahasiswa data science machine learning"
+          >
+            <div class="project-media-wrap project-media-compact">
+              <img
+                src="penelitian-terbaik/WhatsApp%20Image%202026-11-03%20at%2010.31.28.jpeg"
+                alt="Penyerahan Sertifikat Penghargaan Mahasiswa dengan Penelitian Terbaik kepada M. Khoirul Risqi pada Yudisium Sarjana Ke-VIII FST UNUGIRI"
+                width="1280"
+                height="854"
+                loading="lazy"
+                class="project-img"
+              >
+            </div>
+            <div class="project-body">
+              <div class="project-meta-row">
+                <span class="project-cat">DATA SCIENCE &amp; AI RESEARCH</span>
+                <span class="project-period">2026 &middot; Penelitian Terbaik Prodi TI</span>
+              </div>
+              <h3 class="project-title">Analisis Perbandingan Seleksi Fitur dalam Memprediksi Kelulusan Mahasiswa Menggunakan Artificial Neural Network</h3>
+              <p class="project-desc body-md">
+                Riset tugas akhir yang mengevaluasi efektivitas berbagai metode seleksi fitur terhadap akurasi model <strong>Artificial Neural Network (ANN)</strong> dalam memprediksi ketepatan waktu kelulusan mahasiswa. Dianugerahi penghargaan <strong>Mahasiswa dengan Penelitian Terbaik</strong> Program Studi Teknik Informatika pada Yudisium Sarjana Ke-VIII FST UNUGIRI 2026.
+              </p>
+              <div class="project-footer">
+                <div class="tag-list">
+                  <span class="tech-tag">Artificial Neural Network</span>
+                  <span class="tech-tag">Feature Selection</span>
+                  <span class="tech-tag">Data Science</span>
+                </div>
+                <button
+                  type="button"
+                  class="pill-link modal-trigger"
+                  data-modal-image="penelitian-terbaik/WhatsApp%20Image%202026-11-03%20at%2010.31.28.jpeg"
+                  data-modal-title="Penghargaan Penelitian Terbaik Teknik Informatika UNUGIRI 2026"
+                  data-modal-caption="Penerimaan sertifikat penghargaan Penelitian Terbaik pada Yudisium Sarjana Ke-VIII Fakultas Sains dan Teknologi Universitas Nahdlatul Ulama Sunan Giri."
+                >
+                  Lihat Bukti Penghargaan
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 6: Standard Architectural Cell - Banpang Mobile Web Summary Card -->
+          <article
+            class="project-card"
+            data-category="fullstack"
+            data-keywords="banpang mobile web bulog ocr ktp kk vue vite express pdf-lib leaflet osm"
+          >
+            <div class="project-media-wrap project-media-compact">
+              <img
+                src="banpang-mobile/portfolio-hero-showcase.png"
+                alt="Showcase Banpang Mobile Web dengan 3 layar ponsel pintar"
+                width="2400"
+                height="1560"
+                loading="lazy"
+                class="project-img"
+              >
+            </div>
+            <div class="project-body">
+              <div class="project-meta-row">
+                <span class="project-cat">MOBILE WEB &amp; DOCUMENT AUTOMATION</span>
+                <span class="project-period">08/2026 - Sekarang &middot; Perum BULOG Bojonegoro</span>
+              </div>
+              <h3 class="project-title">Banpang Mobile Web: Multi-OCR KTP/KK &amp; Generator Dokumen BAST Perum BULOG</h3>
+              <p class="project-desc body-md">
+                Inovasi internal yang dibangun saat memperluas peran ke divisi <strong>Programmer</strong> di samping tugas utama sebagai Staf Pemberkasan, Admin, dan Verifikator di Perum BULOG Kab. Bojonegoro. Dilengkapi ekstraksi cerdas NIK dan No. KK melalui 3 engine OCR, geotagging peta desa real-time, serta pencetakan dokumen BAST dan SPTJM otomatis.
+              </p>
+              <div class="project-footer">
+                <div class="tag-list">
+                  <span class="tech-tag">Vue 3 &amp; Vite</span>
+                  <span class="tech-tag">Node.js &amp; Express</span>
+                  <span class="tech-tag">Multi-OCR</span>
+                </div>
+                <a href="#studi-kasus" class="pill-link">
+                  Buka Simulasi di Atas
+                </a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 4: VERIFIABLE CREDENTIALS, CERTIFICATES & TRANSCRIPT LEDGER -->
+    <section class="credentials-section" id="pencapaian" aria-labelledby="credentials-heading">
+      <div class="container">
+        <div class="section-header-split">
+          <div>
+            <p class="section-index">03 / BUKTI KOMPETENSI, PENGHARGAAN &amp; TRANSKRIP</p>
+            <h2 id="credentials-heading" class="display-lg">Arsip Sertifikasi &amp; Capaian Terverifikasi</h2>
+          </div>
+          <p class="section-intro body-xl">
+            Setiap klaim kompetensi di halaman ini dilengkapi dengan nomor dokumen resmi, rincian jam pelatihan, atau bukti foto yang dapat diperiksa langsung.
+          </p>
+        </div>
+
+        <!-- Ledger Table Layout (Distinct composition from project cards) -->
+        <div class="ledger-container">
+          <!-- Ledger Item 1: Bangkit Academy Distinction Graduate + Expandable Transcript -->
+          <div class="ledger-item ledger-item-featured">
+            <div class="ledger-main">
+              <div class="ledger-meta">
+                <span class="ledger-year">Januari 2025</span>
+                <span class="ledger-id">No: BA24/DIST/XXIV-01/C356B4KY2349</span>
+              </div>
+              <div class="ledger-info">
+                <h3 class="ledger-title">Bangkit Academy 2024 Batch 2: Distinction Graduate (Cloud Computing)</h3>
+                <p class="ledger-org">Google, GoTo (Tokopedia &amp; Gojek), dan Traveloka &middot; Kampus Merdeka MSIB</p>
+                <p class="ledger-desc body-md">
+                  Lulus dengan predikat tertinggi (<strong>Distinction Graduate</strong>) pada jalur Cloud Computing setelah menyelesaikan <strong>906 jam pelajaran</strong> (setara 20 SKS) dengan nilai rata-rata akhir <strong>92.90 (Grade A)</strong> dan tingkat kehadiran <strong>100%</strong>.
+                </p>
+              </div>
+              <div class="ledger-actions">
+                <button
+                  type="button"
+                  class="btn-primary"
+                  id="toggle-transcript-btn"
+                  aria-expanded="false"
+                  aria-controls="bangkit-transcript-drawer"
+                >
+                  Lihat Rincian Transkrip (13 Mata Kuliah)
+                </button>
+                <a
+                  href="Bangkit-academy/%5BBangkit%202024%20Batch%202%5D%20Certificate%20-%20C356B4KY2349.pdf"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="pill-link"
+                >
+                  Sertifikat PDF
+                </a>
+                <a
+                  href="Bangkit-academy/%5BBangkit%202024%20Batch%202%5D%20Final%20Transcript%20-%20C356B4KY2349.pdf"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="pill-link"
+                >
+                  Transkrip PDF
+                </a>
+              </div>
+            </div>
+
+            <!-- Interactive Collapsible Bangkit Official Transcript Table -->
+            <div class="transcript-drawer" id="bangkit-transcript-drawer" hidden>
+              <div class="transcript-header">
+                <div>
+                  <h4 class="heading-sm">Transkrip Resmi Bangkit 2024 Batch 2 (ID: C356B4KY2349)</h4>
+                  <p class="body-xs muted-copy">NIM: 221101023 &middot; Universitas Nahdlatul Ulama Sunan Giri &middot; Pembimbing: Ita Aristia Sa'Ida, M.Pd.</p>
+                </div>
+                <span class="transcript-summary-badge">Rata-rata: 92.90 (A) &middot; Total: 906 Jam</span>
+              </div>
+
+              <div class="table-responsive" tabindex="0" role="region" aria-label="Tabel Nilai Transkrip Bangkit 2024">
+                <table class="transcript-table">
+                  <thead>
+                    <tr>
+                      <th scope="col">Kode</th>
+                      <th scope="col">Spesialisasi / Modul Pembelajaran</th>
+                      <th scope="col">Durasi</th>
+                      <th scope="col">Skor (0-100)</th>
+                      <th scope="col">Nilai</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>B24CCSB03</td>
+                      <td>Google Cloud Engineer Learning Path</td>
+                      <td>77 Jam</td>
+                      <td>98.3</td>
+                      <td>A</td>
+                    </tr>
+                    <tr>
+                      <td>B24CCSB06</td>
+                      <td>DevOps Engineer, SRE Learning Path</td>
+                      <td>70 Jam</td>
+                      <td>98.3</td>
+                      <td>A</td>
+                    </tr>
+                    <tr>
+                      <td>B24CCDC01</td>
+                      <td>Belajar Dasar Pemrograman Web</td>
+                      <td>45 Jam</td>
+                      <td>93.7</td>
+                      <td>A</td>
+                    </tr>
+                    <tr>
+                      <td>B24CCDC02</td>
+                      <td>Belajar Dasar Pemrograman JavaScript</td>
+                      <td>45 Jam</td>
+                      <td>92.4</td>
+                      <td>A</td>
+                    </tr>
+                    <tr>
+                      <td>B24CCDC03</td>
+                      <td>Belajar Membuat Aplikasi Back-End untuk Pemula dengan Google Cloud</td>
+                      <td>45 Jam</td>
+                      <td>98.3</td>
+                      <td>A</td>
+                    </tr>
+                    <tr>
+                      <td>B24CCSB01</td>
+                      <td>Google Cloud Computing Foundations</td>
+                      <td>54 Jam</td>
+                      <td>98.3</td>
+                      <td>A</td>
+                    </tr>
+                    <tr>
+                      <td>B24CCDC06</td>
+                      <td>Applied Machine Learning for Cloud Engineer</td>
+                      <td>40 Jam</td>
+                      <td>98.3</td>
+                      <td>A</td>
+                    </tr>
+                    <tr>
+                      <td>B24CCDC04</td>
+                      <td>Menjadi Google Cloud Engineer</td>
+                      <td>42 Jam</td>
+                      <td>98.3</td>
+                      <td>A</td>
+                    </tr>
+                    <tr>
+                      <td>B24CCDC05</td>
+                      <td>Introduction to AI</td>
+                      <td>10 Jam</td>
+                      <td>88.5</td>
+                      <td>A</td>
+                    </tr>
+                    <tr>
+                      <td>B24CCSB05</td>
+                      <td>Application Development with Cloud Run</td>
+                      <td>11 Jam</td>
+                      <td>98.3</td>
+                      <td>A</td>
+                    </tr>
+                    <tr>
+                      <td>B24ACEP01</td>
+                      <td>Preparing for Associate Cloud Engineer Certification</td>
+                      <td>25 Jam</td>
+                      <td>93.1</td>
+                      <td>A</td>
+                    </tr>
+                    <tr>
+                      <td>B24CAPP01</td>
+                      <td>Capstone / Final Project (Tim C242-PS286 - Aplikasi TABI)</td>
+                      <td>212 Jam</td>
+                      <td>91.3</td>
+                      <td>A</td>
+                    </tr>
+                    <tr>
+                      <td>B24SSCE01</td>
+                      <td>Soft Skill &amp; Career Development</td>
+                      <td>230 Jam</td>
+                      <td>86.5</td>
+                      <td>A</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+
+          <!-- Ledger Item 2: Juara 1 Mahavation 2025 -->
+          <div class="ledger-item">
+            <div class="ledger-main">
+              <div class="ledger-meta">
+                <span class="ledger-year">2025</span>
+                <span class="ledger-id">Polda Jawa Timur &middot; HUT Lalu Lintas Ke-70</span>
+              </div>
+              <div class="ledger-info">
+                <h3 class="ledger-title">Juara 1 Mahameru Road Safety Innovation (Mahavation) 2025 Tingkat Jawa Timur</h3>
+                <p class="ledger-org">Direktorat Lalu Lintas Polda Jawa Timur &middot; Kategori Perguruan Tinggi</p>
+                <p class="ledger-desc body-md">
+                  Peringkat pertama kompetisi inovasi keselamatan lalu lintas tingkat provinsi Jawa Timur melalui pengembangan sistem cerdas berbasis ESP32 dan Machine Learning.
+                </p>
+              </div>
+              <div class="ledger-actions">
+                <button
+                  type="button"
+                  class="pill-link modal-trigger"
+                  data-modal-image="Lomba-Mahavation/WhatsApp%20Image%202026-11-02%20at%2010.15.08.jpeg"
+                  data-modal-title="Juara 1 Mahavation 2025 Kategori Perguruan Tinggi"
+                  data-modal-caption="Dokumentasi penerimaan piala dan plakat Juara 1 Mahavation 2025 (Hari Lalu Lintas Bhayangkara Ke-70 Tahun 2025)."
+                >
+                  Lihat Foto Bukti
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Ledger Item 3: Penelitian Terbaik Yudisium FST UNUGIRI -->
+          <div class="ledger-item">
+            <div class="ledger-main">
+              <div class="ledger-meta">
+                <span class="ledger-year">2026</span>
+                <span class="ledger-id">Yudisium Sarjana Ke-VIII FST UNUGIRI</span>
+              </div>
+              <div class="ledger-info">
+                <h3 class="ledger-title">Penghargaan Mahasiswa dengan Penelitian Terbaik Program Studi Teknik Informatika</h3>
+                <p class="ledger-org">Fakultas Sains dan Teknologi, Universitas Nahdlatul Ulama Sunan Giri</p>
+                <p class="ledger-desc body-md">
+                  Diberikan atas penelitian berjudul <em>"Analisis Perbandingan Seleksi Fitur dalam Memprediksi Kelulusan Mahasiswa dengan Menggunakan Artificial Neural Network"</em>.
+                </p>
+              </div>
+              <div class="ledger-actions">
+                <button
+                  type="button"
+                  class="pill-link modal-trigger"
+                  data-modal-image="penelitian-terbaik/WhatsApp%20Image%202026-11-03%20at%2010.31.28.jpeg"
+                  data-modal-title="Sertifikat Penghargaan Penelitian Terbaik 2026"
+                  data-modal-caption="Penyerahan penghargaan Penelitian Terbaik Program Studi Teknik Informatika pada Yudisium Sarjana Ke-VIII FST UNUGIRI."
+                >
+                  Lihat Foto Sertifikat
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Ledger Item 4: DBS Foundation Coding Camp 2023 -->
+          <div class="ledger-item">
+            <div class="ledger-main">
+              <div class="ledger-meta">
+                <span class="ledger-year">Januari - Oktober 2023</span>
+                <span class="ledger-id">No: DBSFCC2023/L1-DO-164 &middot; Hingga Level Expert</span>
+              </div>
+              <div class="ledger-info">
+                <h3 class="ledger-title">Sertifikat Kelulusan Alur Belajar DevOps Engineer (Intermediate hingga Expert)</h3>
+                <p class="ledger-org">DBS Foundation Coding Camp 2023 &amp; Dicoding Indonesia</p>
+                <p class="ledger-desc body-md">
+                  Menyelesaikan rangkaian pelatihan intensif Alur Belajar DevOps Engineer mulai dari tingkat dasar, menengah (Intermediate), hingga tingkat mahir (<strong>Expert</strong>): mencakup pembangunan pipeline CI/CD otomatis, containerization, manajemen infrastruktur terukur, serta pemantauan sistem produksi.
+                </p>
+              </div>
+              <div class="ledger-actions">
+                <button
+                  type="button"
+                  class="pill-link modal-trigger"
+                  data-modal-image="dbs-foundation%20coding%20camp/1693648814131.jpeg"
+                  data-modal-title="Sertifikat Kelulusan DBS Foundation Coding Camp 2023 (DevOps Engineer)"
+                  data-modal-caption="Sertifikat Kelulusan Alur Belajar DevOps Engineer pada program DBS Foundation Coding Camp 2023 (tuntas hingga tingkat Expert)."
+                >
+                  Periksa Sertifikat
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Ledger Item 5: Sertifikasi BNSP -->
+          <div class="ledger-item">
+            <div class="ledger-main">
+              <div class="ledger-meta">
+                <span class="ledger-year">11/2021 - 11/2024</span>
+                <span class="ledger-id">Sertifikasi Kompetensi BNSP</span>
+              </div>
+              <div class="ledger-info">
+                <h3 class="ledger-title">Sertifikasi Kompetensi Teknologi Informasi dan Komunikasi (Desain Grafis)</h3>
+                <p class="ledger-org">Badan Nasional Sertifikasi Profesi (BNSP) &middot; Balai Latihan Kerja (BLK)</p>
+                <p class="ledger-desc body-md">
+                  Lulus uji kompetensi nasional setelah menyelesaikan pelatihan Desain Grafis secara komprehensif selama 1 bulan penuh di Balai Latihan Kerja (BLK).
+                </p>
+              </div>
+              <div class="ledger-actions">
+                <a
+                  href="CV/M.%20Khoirul%20Risqi%20%20-%20CV%20(4)%20(1).pdf"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="pill-link"
+                >
+                  Tercantum di CV
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 5: EXPERIENCE, EDUCATION & TECHNICAL CAPABILITIES CHRONICLE -->
+    <section class="chronicle-section" id="pengalaman" aria-labelledby="chronicle-heading">
+      <div class="container">
+        <div class="section-header-split">
+          <div>
+            <p class="section-index">04 / REKAM JEJAK PROFESIONAL, AKADEMIS &amp; KEAHLIAN</p>
+            <h2 id="chronicle-heading" class="display-lg">Pengalaman Kerja, Pendidikan &amp; Matriks Teknis</h2>
+          </div>
+          <p class="section-intro body-xl">
+            Kombinasi pengalaman praktis mulai dari instalasi jaringan lapangan, pengembangan produk perangkat lunak, rekayasa cloud &amp; DevOps, hingga pengelolaan akurasi dokumen pertanahan krusial.
+          </p>
+        </div>
+
+        <div class="chronicle-columns">
+          <!-- Column A: Work & Cohort Experience -->
+          <div class="chronicle-col">
+            <h3 class="column-heading">Pengalaman Kerja &amp; Program Intensif</h3>
+            <ol class="timeline-list">
+              <li class="timeline-entry timeline-entry-current">
+                <div class="timeline-header">
+                  <span class="timeline-date"><span class="active-badge-dot" aria-hidden="true"></span>Agustus 2026 - Sekarang</span>
+                  <span class="timeline-company">Perum BULOG &middot; Kab. Bojonegoro, Jawa Timur</span>
+                </div>
+                <h4 class="timeline-role">Staf Pemberkasan, Admin, Verifikator &amp; Programmer (Ekspansi Lintas Divisi)</h4>
+                <p class="timeline-body body-md">
+                  Bertanggung jawab penuh atas pencatatan, validasi identitas pengambil bantuan sesuai KTP/KK, serta penyusunan Berita Acara Serah Terima (BAST) bantuan beras Perum BULOG secara akuntabel, sekaligus dipercaya memperluas cakupan kerja ke divisi <strong>Programmer</strong> untuk mendigitalisasi alur operasional:
+                </p>
+                <div class="division-badges" aria-label="Cakupan Divisi di Perum BULOG">
+                  <span class="division-pill">01. Staf Pemberkasan</span>
+                  <span class="division-pill">02. Admin Data Penyaluran</span>
+                  <span class="division-pill">03. Verifikator KTP/KK</span>
+                  <span class="division-pill division-pill-highlight">04. Programmer &amp; Otomasi Sistem</span>
+                </div>
+                <ul class="division-breakdown body-sm">
+                  <li>
+                    <strong>Divisi Pemberkasan &amp; BAST Akuntabel:</strong> Menyusun, memeriksa kelengkapan, dan mengarsipkan dokumen pertanggungjawaban penyaluran bantuan beras Perum BULOG (BAST Normal, BAST Perwakilan Beda KK/BK, BAST Pengganti, SPTJM, dan Berita Acara Musdes).
+                  </li>
+                  <li>
+                    <strong>Divisi Administrasi &amp; Rekapitulasi:</strong> Mengelola pencatatan data Penerima Bantuan Pangan (PBP) lintas desa/kecamatan di Kabupaten Bojonegoro, memantau kuota tersalur, serta menyusun laporan rekapitulasi berkala (.xlsx/CSV).
+                  </li>
+                  <li>
+                    <strong>Divisi Verifikator Identitas &amp; Bukti Lapangan:</strong> Memvalidasi keabsahan identitas penerima maupun perwakilan pengambil bantuan berdasarkan pencocokan NIK KTP dan Nomor Kartu Keluarga (KK), serta menginspeksi kualitas foto bukti serah terima.
+                  </li>
+                  <li>
+                    <strong>Ekspansi ke Divisi Programmer (Inovasi Internal):</strong> Merancang dan membangun aplikasi <a href="#studi-kasus" class="inline-link">Banpang Mobile Web</a> (Vue 3, Node.js/Express, Multi-Engine AI OCR, Leaflet OSM, PDF-Lib) untuk mengotomasi pembacaan NIK/KK dari foto dokumen, pemetaan titik koordinat lokasi penyaluran, dan pencetakan otomatis berkas PDF BAST resmi.
+                  </li>
+                </ul>
+              </li>
+
+              <li class="timeline-entry">
+                <div class="timeline-header">
+                  <span class="timeline-date">06/2026 - 08/2026</span>
+                  <span class="timeline-company">PT Roda Pelita Nusantara (Mitra ATR/BPN)</span>
+                </div>
+                <h4 class="timeline-role">Data Entry &amp; Verifikasi Dokumen Pertanahan</h4>
+                <p class="timeline-body body-md">
+                  Bertanggung jawab memverifikasi, memvalidasi, dan mengelola akurasi data dokumen krusial <strong>Buku Tanah</strong> serta <strong>Surat Ukur</strong> sesuai standar ketat Kementerian ATR/BPN.
+                </p>
+              </li>
+
+              <li class="timeline-entry">
+                <div class="timeline-header">
+                  <span class="timeline-date">04/2025 - 06/2025</span>
+                  <span class="timeline-company">Synergics Digital Solusindo</span>
+                </div>
+                <h4 class="timeline-role">Product Developer</h4>
+                <p class="timeline-body body-md">
+                  Membangun situs web Polres Bojonegoro, mengembangkan <strong>LaporPak!</strong> (chatbot pelaporan lalu lintas se-Jawa Timur berbasis WhatsApp yang terintegrasi aplikasi Android dan web), serta merancang UI/UX situs web Ditlantas Jatim.
+                </p>
+              </li>
+
+              <li class="timeline-entry">
+                <div class="timeline-header">
+                  <span class="timeline-date">09/2024 - 12/2024</span>
+                  <span class="timeline-company">Bangkit Academy led by Google, Tokopedia, Gojek &amp; Traveloka</span>
+                </div>
+                <h4 class="timeline-role">Cloud Computing Cohort 2024 Batch 2 (Distinction Graduate)</h4>
+                <p class="timeline-body body-md">
+                  Mendalami rekayasa Cloud Computing di Google Cloud Platform, membangun layanan backend terukur, menerapkan arsitektur microservices, CI/CD, dan memimpin infrastruktur cloud pada proyek Capstone TABI.
+                </p>
+              </li>
+
+              <li class="timeline-entry">
+                <div class="timeline-header">
+                  <span class="timeline-date">01/2023 - 10/2023</span>
+                  <span class="timeline-company">Dicoding Academy &amp; DBS Foundation</span>
+                </div>
+                <h4 class="timeline-role">DBS Foundation Coding Camp 2023: DevOps Engineer Cohort (Hingga Level Expert)</h4>
+                <p class="timeline-body body-md">
+                  Lulus hingga tingkat mahir (<strong>Expert</strong>) pada alur belajar DevOps Engineer. Mengasah keterampilan pembangunan pipeline CI/CD otomatis, pengelolaan container dan arsitektur microservices, pemantauan sistem, serta optimasi infrastruktur server untuk menjembatani tim pengembangan dan operasional.
+                </p>
+              </li>
+
+              <li class="timeline-entry">
+                <div class="timeline-header">
+                  <span class="timeline-date">01/2023 - 02/2023</span>
+                  <span class="timeline-company">Progate</span>
+                </div>
+                <h4 class="timeline-role">Sheetposting Informatika Coding Camp</h4>
+                <p class="timeline-body body-md">
+                  Memperkuat fondasi pemrograman web dan pengembangan aplikasi melalui kolaborasi komunitas intensif dan latihan pemecahan masalah terstruktur.
+                </p>
+              </li>
+
+              <li class="timeline-entry">
+                <div class="timeline-header">
+                  <span class="timeline-date">10/2019 - 03/2020</span>
+                  <span class="timeline-company">Jasa Tower Net</span>
+                </div>
+                <h4 class="timeline-role">Internet Network Technician</h4>
+                <p class="timeline-body body-md">
+                  Menjaga kestabilan infrastruktur jaringan internet pelanggan, melakukan instalasi perangkat, serta menangani pemecahan masalah (troubleshooting) konektivitas di lapangan secara cepat dan presisi.
+                </p>
+              </li>
+            </ol>
+          </div>
+
+          <!-- Column B: Education, Leadership & Technical Matrix -->
+          <div class="chronicle-col">
+            <h3 class="column-heading">Pendidikan Formal &amp; Kepemimpinan</h3>
+            <ol class="timeline-list">
+              <li class="timeline-entry">
+                <div class="timeline-header">
+                  <span class="timeline-date">08/2022 - 08/2026</span>
+                  <span class="timeline-company">Universitas Nahdlatul Ulama Sunan Giri (UNUGIRI)</span>
+                </div>
+                <h4 class="timeline-role">Sarjana Komputer (S1), Teknik Informatika</h4>
+                <p class="timeline-body body-md">
+                  Fokus pada pengembangan sistem perangkat lunak, kecerdasan buatan, dan inovasi teknologi berdampak sosial. Aktif sebagai <strong>Koordinator Publikasi BEM FST &amp; FIK</strong> (membangun portal web organisasi <a href="https://bemfstfik.unugiri.com/" target="_blank" rel="noopener noreferrer" class="inline-link">bemfstfik.unugiri.com</a>), meraih <strong>Juara 1 Mahavation 2025</strong> tingkat Jawa Timur, dan lulus sebagai <strong>Mahasiswa dengan Penelitian Terbaik</strong>.
+                </p>
+              </li>
+
+              <li class="timeline-entry">
+                <div class="timeline-header">
+                  <span class="timeline-date">2018 - 08/2021</span>
+                  <span class="timeline-company">SMK Negeri 2 Bojonegoro</span>
+                </div>
+                <h4 class="timeline-role">Teknik Elektronika Industri (SLTA)</h4>
+                <p class="timeline-body body-md">
+                  Menguasai praktikum elektronika industri secara langsung, meliputi pemrograman <strong>PLC (Programmable Logic Controller)</strong>, mikrokontroler <strong>Arduino</strong>, perakitan rangkaian sensor, serta sistem robotika.
+                </p>
+              </li>
+            </ol>
+
+            <!-- Technical & Operational Matrix -->
+            <div class="skills-matrix-panel">
+              <h3 class="column-heading">Matriks Kompetensi (Sesuai CV &amp; Proyek)</h3>
+              <div class="skills-grid">
+                <div class="skill-group">
+                  <h4 class="skill-group-title">Cloud, DevOps &amp; Jaringan</h4>
+                  <ul class="skill-items">
+                    <li>Google Cloud Platform (Cloud Run, Compute, IAM)</li>
+                    <li>CI/CD Pipeline &amp; Otomasi Infrastruktur</li>
+                    <li>Microservices &amp; Back-End Architecture</li>
+                    <li>Troubleshooting Jaringan &amp; IT Support</li>
+                  </ul>
+                </div>
+
+                <div class="skill-group">
+                  <h4 class="skill-group-title">Fullstack &amp; Desain Antarmuka</h4>
+                  <ul class="skill-items">
+                    <li>JavaScript, Node.js, Express, RESTful API</li>
+                    <li>Vue 3, Vite, HTML5, CSS3 Modern</li>
+                    <li>Integrasi WhatsApp Bot, Multi-OCR &amp; Leaflet OSM</li>
+                    <li>Desain UI/UX &amp; Desain Grafis (Tersertifikasi BNSP)</li>
+                  </ul>
+                </div>
+
+                <div class="skill-group">
+                  <h4 class="skill-group-title">IoT, Elektronika &amp; Data/AI</h4>
+                  <ul class="skill-items">
+                    <li>Mikrokontroler ESP32, Arduino &amp; PLC Industri</li>
+                    <li>Sistem Robotika &amp; Integrasi Sensor/Kamera</li>
+                    <li>Artificial Neural Network (ANN) &amp; Seleksi Fitur</li>
+                    <li>Applied Machine Learning untuk Cloud &amp; Edge</li>
+                  </ul>
+                </div>
+
+                <div class="skill-group">
+                  <h4 class="skill-group-title">Manajemen, Data &amp; Kepemimpinan</h4>
+                  <ul class="skill-items">
+                    <li>Manajemen Proyek &amp; Problem Solving Teknis</li>
+                    <li>Verifikasi &amp; Validasi Data Presisi (Standar ATR/BPN)</li>
+                    <li>Kepemimpinan &amp; Koordinator Publikasi (BEM FST &amp; FIK)</li>
+                    <li>Kolaborasi Lintas Tim (Capstone &amp; Instansi)</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 6: DIRECT CONTACT & DISPATCH COMPOSER -->
+    <section class="contact-section" id="kontak" aria-labelledby="contact-heading">
+      <div class="container">
+        <div class="contact-grid">
+          <div class="contact-info-col">
+            <p class="section-index">05 / KONTAK &amp; KOLABORASI</p>
+            <h2 id="contact-heading" class="display-lg">Mari Diskusikan Kebutuhan Tim atau Proyek Anda.</h2>
+            <p class="body-xl muted-copy">
+              Terbuka untuk peluang kerja penuh waktu (Fullstack Developer, Cloud/DevOps Engineer, IT Support), proyek pengembangan sistem instansi, maupun kolaborasi riset IoT.
+            </p>
+
+            <div class="direct-channels" role="list" aria-label="Saluran Komunikasi Langsung">
+              <div class="channel-card" role="listitem">
+                <div class="channel-detail">
+                  <span class="channel-label">Pos Elektronik (Email)</span>
+                  <a href="mailto:risqisgb@gmail.com" class="channel-value">risqisgb@gmail.com</a>
+                </div>
+                <button
+                  type="button"
+                  class="pill-control copy-btn"
+                  data-copy="risqisgb@gmail.com"
+                  aria-label="Salin alamat email risqisgb@gmail.com"
+                >
+                  Salin Email
+                </button>
+              </div>
+
+              <div class="channel-card" role="listitem">
+                <div class="channel-detail">
+                  <span class="channel-label">Telepon / WhatsApp</span>
+                  <a
+                    href="https://wa.me/6285233185875"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="channel-value"
+                  >
+                    0852-3318-5875
+                  </a>
+                </div>
+                <button
+                  type="button"
+                  class="pill-control copy-btn"
+                  data-copy="085233185875"
+                  aria-label="Salin nomor telepon 085233185875"
+                >
+                  Salin Nomor
+                </button>
+              </div>
+
+              <div class="channel-card" role="listitem">
+                <div class="channel-detail">
+                  <span class="channel-label">LinkedIn Resmi</span>
+                  <a
+                    href="https://www.linkedin.com/in/khoirulrisqi/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="channel-value"
+                  >
+                    linkedin.com/in/khoirulrisqi
+                  </a>
+                </div>
+                <a
+                  href="https://www.linkedin.com/in/khoirulrisqi/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="pill-link"
+                >
+                  Buka Profil
+                </a>
+              </div>
+
+              <div class="channel-card" role="listitem">
+                <div class="channel-detail">
+                  <span class="channel-label">Repositori GitHub &amp; Domisili</span>
+                  <a
+                    href="https://github.com/risqikhoirul"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="channel-value"
+                  >
+                    github.com/risqikhoirul &middot; Kab. Bojonegoro, Jatim
+                  </a>
+                </div>
+                <a
+                  href="https://github.com/risqikhoirul"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="pill-link"
+                >
+                  Buka GitHub
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Interactive Dispatch Form (works statically on GitHub Pages via mailto or WhatsApp) -->
+          <div class="contact-form-col">
+            <form class="dispatch-form" id="dispatch-form" novalidate>
+              <h3 class="heading-md">Kirim Pesan Langsung</h3>
+              <p class="body-sm muted-copy">
+                Isi formulir di bawah untuk menyusun pesan terstruktur yang langsung diteruskan ke WhatsApp atau aplikasi Email Anda tanpa memerlukan server pihak ketiga.
+              </p>
+
+              <div class="form-field">
+                <label for="sender-name" class="field-label">Nama Lengkap / Instansi <span aria-hidden="true">*</span></label>
+                <input
+                  type="text"
+                  id="sender-name"
+                  name="senderName"
+                  class="field-input"
+                  required
+                  placeholder="Contoh: Budi Santoso (PT Maju Digital)"
+                  autocomplete="name"
+                >
+              </div>
+
+              <div class="form-field">
+                <label for="sender-contact" class="field-label">Email atau Nomor Kontak Balasan <span aria-hidden="true">*</span></label>
+                <input
+                  type="text"
+                  id="sender-contact"
+                  name="senderContact"
+                  class="field-input"
+                  required
+                  placeholder="Contoh: budi@perusahaan.com / 0812xxxx"
+                  autocomplete="email"
+                >
+              </div>
+
+              <div class="form-field">
+                <label for="sender-topic" class="field-label">Topik Keperluan</label>
+                <select id="sender-topic" name="senderTopic" class="field-select">
+                  <option value="Rekrutmen Fullstack / Cloud / DevOps">Rekrutmen Fullstack / Cloud / DevOps</option>
+                  <option value="Rekrutmen IT Support / Network / Data">Rekrutmen IT Support / Network / Data</option>
+                  <option value="Pengembangan Web / Aplikasi Instansi">Pengembangan Web / Aplikasi Instansi</option>
+                  <option value="Kolaborasi Proyek IoT & Embedded System">Kolaborasi Proyek IoT &amp; Embedded System</option>
+                  <option value="Diskusi Umum">Diskusi Umum</option>
+                </select>
+              </div>
+
+              <div class="form-field">
+                <label for="sender-message" class="field-label">Rincian Pesan <span aria-hidden="true">*</span></label>
+                <textarea
+                  id="sender-message"
+                  name="senderMessage"
+                  rows="4"
+                  class="field-textarea"
+                  required
+                  placeholder="Tuliskan gambaran singkat posisi, proyek, atau jadwal diskusi yang diinginkan..."
+                ></textarea>
+              </div>
+
+              <div class="form-feedback" id="form-feedback" hidden role="alert" aria-live="polite"></div>
+
+              <div class="form-actions">
+                <button type="submit" class="btn-primary" data-channel="whatsapp">
+                  Kirim via WhatsApp
+                </button>
+                <button type="submit" class="btn-filled" data-channel="email">
+                  Kirim via aplikasi Email
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-brand-block">
+        <p class="footer-title">M. Khoirul Risqi</p>
+        <p class="footer-sub">
+          Lulusan S1 Teknik Informatika UNUGIRI &middot; Distinction Graduate Bangkit 2024 &middot; Juara 1 Mahavation 2025 Jawa Timur.
+        </p>
+      </div>
+
+      <div class="footer-links-block">
+        <a href="#studi-kasus" class="footer-link">Studi Kasus</a>
+        <a href="#karya" class="footer-link">Arsip Proyek</a>
+        <a href="#pencapaian" class="footer-link">Sertifikasi</a>
+        <a href="https://github.com/risqikhoirul" target="_blank" rel="noopener noreferrer" class="footer-link">GitHub</a>
+        <a href="https://www.linkedin.com/in/khoirulrisqi/" target="_blank" rel="noopener noreferrer" class="footer-link">LinkedIn</a>
+        <a href="CV/M.%20Khoirul%20Risqi%20%20-%20CV%20(4)%20(1).pdf" target="_blank" rel="noopener noreferrer" class="footer-link">CV (PDF)</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ACCESSIBLE EVIDENCE & IMAGE LIGHTBOX MODAL (R-26, R-32) -->
+  <div
+    class="modal-backdrop"
+    id="evidence-modal"
+    role="dialog"
+    aria-modal="true"
+    aria-labelledby="modal-title"
+    aria-describedby="modal-caption"
+    hidden
+  >
+    <div class="modal-container">
+      <div class="modal-header">
+        <h3 class="modal-title" id="modal-title">Pratinjau Dokumen</h3>
+        <button
+          type="button"
+          class="pill-control modal-close-btn"
+          id="modal-close-btn"
+          aria-label="Tutup jendela pratinjau (Escape)"
+        >
+          Tutup (Esc)
+        </button>
+      </div>
+      <div class="modal-body">
+        <img
+          id="modal-image"
+          src="banpang-mobile/portfolio-hero-showcase.png"
+          alt="Pratinjau dokumen bukti"
+          width="1280"
+          height="960"
+          class="modal-img"
+        >
+        <p class="modal-caption body-sm" id="modal-caption"></p>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
